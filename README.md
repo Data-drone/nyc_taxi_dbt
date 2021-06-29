@@ -12,6 +12,8 @@ This was built with my ml_platform stack in mind:
 - https://github.com/Data-drone/a_ml_platform.git
 
 
+Currently stuck with S3a issues with spark not sure if we need to add spark to the docker image? Maybe we need local cached jars for hadoop aws?
+
 #### Startup a container into the ml_platform network
 
 ```bash
