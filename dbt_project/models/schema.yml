@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: daily_trips
+    description: this table compiles daily trips taken across the taxi network
+
+    columns:
+      - name: date
+        description: This is the date
+        tests:
+          - unique
+          - not_null
+
+      - name: num_trips
+        description: This is the number of trips as a number
+        tests:
+          - not_null

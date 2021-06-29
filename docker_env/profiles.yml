@@ -1,0 +1,13 @@
+# example profiles.yml file
+taxi_db:
+  target: dev
+  outputs:
+    dev:
+      type: spark
+      method: thrift
+      host: spark-thrift-server
+      user: root
+      port: 10000
+      auth: NOSASL
+      schema: nyc_taxi_analytics
+      thread: 4
