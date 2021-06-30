@@ -7,11 +7,11 @@ models:
     columns:
       - name: date
         description: This is the date
-        tests:
-          - unique
-          - not_null
+        #tests:
+        #  - unique
+        #  - not_null
 
       - name: num_trips
         description: This is the number of trips as a number
-        tests:
-          - not_null
+        #tests:
+        #  - not_null
